@@ -89,8 +89,8 @@ function playBell()
 {
     alert("läuten");
     var bellCount = getBells();
-    playSound(bellCount);
     writeBell(bellCount);
+    //playSound(bellCount);
     setTimeout(playBell, 30 * 60 * 1000);
 }
 
